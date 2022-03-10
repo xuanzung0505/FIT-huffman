@@ -1,0 +1,75 @@
+***HUFFMAN ALGORITHM EXAMPLE***
+______________________________________________________________
+1) ENCODE DATA
+Data entered from file: Inpuasdasd1233333t aosidufioqu09 rurqoiuer jiqafa  asdf1#$!#%%%123$!!!!
+________________________________________
+INITIALIZING...
+DONE!
+Data size: 26
+Data: "", Probability: 0.0138889
+Data: "p", Probability: 0.0138889
+Data: "n", Probability: 0.0138889
+Data: "j", Probability: 0.0138889
+Data: "e", Probability: 0.0138889
+Data: "I", Probability: 0.0138889
+Data: "9", Probability: 0.0138889
+Data: "0", Probability: 0.0138889
+Data: "t", Probability: 0.0138889
+Data: "2", Probability: 0.0277778
+Data: "$", Probability: 0.0277778
+Data: "#", Probability: 0.0277778
+Data: "1", Probability: 0.0416667
+Data: "%", Probability: 0.0416667
+Data: "r", Probability: 0.0416667
+Data: "f", Probability: 0.0416667
+Data: "o", Probability: 0.0416667
+Data: "q", Probability: 0.0416667
+Data: "s", Probability: 0.0555556
+Data: "d", Probability: 0.0555556
+Data: "i", Probability: 0.0555556
+Data: "u", Probability: 0.0694444
+Data: "!", Probability: 0.0694444
+Data: " ", Probability: 0.0694444
+Data: "a", Probability: 0.0833333
+Data: "3", Probability: 0.0833333
+________________________________________
+MAKING TREE...
+Initial nodes:26
+DONE!
+Nodes after process: 51
+______________________________________
+TRAVERSING NODES...
+o: 0000
+q: 0001
+t: 00100
+2: 00101
+s: 0011
+d: 0100
+i: 0101
+$: 01100
+#: 01101
+: 011100
+p: 011101
+n: 011110
+j: 011111
+e: 100000
+I: 100001
+9: 100010
+0: 100011
+u: 1001
+!: 1010
+ : 1011
+a: 1100
+3: 1101
+1: 11100
+%: 11101
+r: 11110
+f: 11111
+DONE!
+______________________________________
+COMPRESSION RESULT:
+H(X) = 4.44246; average n = 4.48611
+______________________________________________________________
+2) DECODE BITS
+Bits entered: 11111
+Bits are valid, result: "f"
